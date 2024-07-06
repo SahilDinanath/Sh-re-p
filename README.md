@@ -1,13 +1,12 @@
 # Custom Grep Tool
 
 This repository contains a custom implementation of the `grep` command-line tool, utilizing a custom regex engine. The regex engine can be found at [RegexEngine](https://github.com/SahilDinanath/RegexEngine).
-
+- Includes example text files for testing and demonstration purposes.
 ## Features
 
-- Supports full fundamental regex expressions as listed in the [RegexEngine](https://github.com/SahilDinanath/RegexEngine) repository.
+- Supports NFA evaluated regular expressions as listed in the [RegexEngine](https://github.com/SahilDinanath/RegexEngine) repository.
 - Provides a `grep`-like interface for searching text files with regular expressions.
-- Includes example text files for testing and demonstration purposes.
-
+  
 ## Building the Project
 
 To build the project, simply run:
@@ -36,9 +35,9 @@ The `examples` directory contains text files that can be used for testing and de
 - `pride_and_prejudice.txt` (Pride and Prejudice by Jane Austen)
 - `moby_dick.txt` (Moby Dick by Herman Melville)
 
-## Regex Expressions
+## Regular Expressions
 
-The custom regex engine supports the full set of fundamental regex expressions as detailed in the [RegexEngine](https://github.com/SahilDinanath/RegexEngine) repository. Refer to the documentation there for more information on supported expressions and usage.
+The custom regex engine supports the full set of fundamental regular expressions as detailed in the [RegexEngine](https://github.com/SahilDinanath/RegexEngine) repository. Refer to the documentation there for more information on supported expressions and usage.
 
 ## License
 
@@ -50,8 +49,5 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ## Acknowledgments
 
-- The regex engine used in this project is from [RegexEngine](https://github.com/SahilDinanath/RegexEngine).
+To Ken Thompson for creating Grep.
 
----
-
-Feel free to customize this README to better suit your project's needs and style.
