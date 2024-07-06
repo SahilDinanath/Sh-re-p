@@ -1,7 +1,3 @@
-Here's a sample README for your GitHub repository:
-
----
-
 # Custom Grep Tool
 
 This repository contains a custom implementation of the `grep` command-line tool, utilizing a custom regex engine. The regex engine can be found at [RegexEngine](https://github.com/SahilDinanath/RegexEngine).
