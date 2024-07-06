@@ -3,8 +3,6 @@
 #include <string.h>
 #define LINESIZE 4095
 int main(int argc, char *argv[]) {
-  // first input will be regex
-  // second input will be file
   if (argc < 2) {
     fprintf(stderr, "Please provide a regular expression and file name eg: "
                     "./main \"ab*|c\" main.c \n");
@@ -35,8 +33,6 @@ int main(int argc, char *argv[]) {
     // look through each word of the line
     while (token != NULL) {
       // if word is matched then get then stop matching
-      // LLLLLLLL
-      // printf("token : %s\n", token);
       if (match(token)) {
         printf("%d: %s", i + 1, line);
         break;
