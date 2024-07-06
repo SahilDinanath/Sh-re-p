@@ -8,7 +8,7 @@ CC=gcc
 OPTS=-O0
 DEPS=-MP -MD
 #for each header directory, tell $(CC) to include it
-CFLAGS=-Wall -Wextra -g $(foreach D, $(INCDIRS), -I$(D)) $(OPTS) $(DEPS)
+CFLAGS=-Wall -Wextra -pedantic -g $(foreach D, $(INCDIRS), -I$(D)) $(OPTS) $(DEPS)
 
 #find all the .c files by searching the directories listed in $(CODEDIRS) 
 CFILES=$(foreach D, $(CODEDIRS), $(wildcard $(D)/*.c))
@@ -29,6 +29,8 @@ clean:
 
 -include $(DEPFILES)
 
+test: all
+	@./main "char" main.c
 .PHONY: clean all
 
 
