@@ -1,4 +1,5 @@
 # Custom Grep Tool
+[Screencast from 2024-07-06 13-38-40.webm](https://github.com/SahilDinanath/Sh-re-p/assets/46680594/f029d790-5b9a-4772-93ba-e24335a2b0e7)
 
 This repository contains a custom implementation of the `grep` command-line tool, utilizing a custom regex engine. The regex engine can be found at [RegexEngine](https://github.com/SahilDinanath/RegexEngine).
 - Includes example text files for testing and demonstration purposes.
